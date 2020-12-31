@@ -82,6 +82,10 @@ input, select, textarea {
 		-ms-overflow-style: scrollbar;
 	}
 
+	.headerpargraph {
+		margin: 10px; padding: 20px;
+	}
+
 	@media screen and (max-width: 480px) {
 
 		html, body {
@@ -2582,7 +2586,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			position: relative;
-			width: calc(33.33333% - 2.5em);
+			width: calc(34.33333% - 2.5em);
 			margin: 2.5em 0 0 2.5em;
 		}
 
@@ -2774,7 +2778,7 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					width: calc(33.33333% - 1.25em);
+					width: calc(40.33333% - 1.25em);
 					margin: 1.25em 0 0 1.25em;
 				}
 
@@ -3165,7 +3169,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 5em 0 6em 0 ;
+		padding: 5em 100px 6em 0px ;
 		background-color: #f6f6f6;
 	}
 
@@ -3228,7 +3232,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#footer {
-				padding: 5em 0 3em 0 ;
+				padding: 5em 100px 3em 100px ;
 			}
 
 				#footer > .inner section:nth-child(1) {
@@ -3260,7 +3264,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 0 1em 0 ;
+				padding: 3em 100px 1em 100px ;
 			}
 
 				#footer > .inner {
