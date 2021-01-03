@@ -81,7 +81,7 @@ input, select, textarea {
 	float: left;
 	width: 33.33%;
 	padding: 10px;
-	height: 300px; /* Should be removed. Only for demonstration */
+	height: 250px; /* Should be removed. Only for demonstration */
   }
   
   /* Clear floats after the columns */
@@ -2396,13 +2396,35 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.sub {
+				display: block;
+				margin: 0 0 3em 0;
+				width: 100%;
+			}
+
+			.image.sub img {
+				width: 50%;
+				margin: 35px 0 3em 290px;
+			}
+
 			@media screen and (max-width: 736px) {
 
 				.image.main {
 					margin: 0 0 2em 0;
 				}
 
+				.image.sub {
+					display: block;
+					margin: 0 0 3em 0px;
+					width: 100%;
+				}
+
+				.image.sub img {
+					width: 50%;
+					margin: 35px 0 3em 75px;
+				}
 			}
+			
 
 /* Table */
 
